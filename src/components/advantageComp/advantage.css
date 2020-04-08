@@ -1,0 +1,41 @@
+
+@media screen and (min-width:769px){
+.mainb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    height:auto;
+    border-bottom: solid 1px;
+}
+
+.image{
+width:100px;
+margin-top:4%;
+margin-left:10%;
+}
+
+.mainb h3{
+font-size:30px
+}
+}
+
+
+@media screen and (max-width:768px){
+    .mainb h3{
+        font-size:30px
+    }
+    .image{
+        width:100px;
+        margin-top:4%;
+        margin-left:10%;
+        }
+        .mainb{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: aqua;
+            height:auto;
+            border-bottom: solid 1px;
+        }
+}

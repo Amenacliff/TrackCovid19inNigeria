@@ -1,0 +1,139 @@
+@media screen and (min-width:769px){
+
+.introtext{
+    text-align: center;
+    font-size:40px
+}
+.hospital{
+    font-size:100px;
+    color:aqua;
+    margin-left: 5%;
+}
+.totalc h3 {
+    font-size:30px;
+    margin-left: 5%;
+}
+
+.totalc{
+    display: flex;
+    flex-direction : row;
+}
+.newc{
+    display: flex;
+    flex-direction : row;
+}
+
+.newc h3{
+font-size:30px;
+margin-left:5%
+}
+.newRecc{
+    display: flex;
+    flex-direction : row;
+}
+
+.newRecc h3{
+font-size:30px;
+margin-left:5%
+}
+.totalre{
+    display: flex;
+    flex-direction : row;
+}
+
+.totalre h3{
+font-size:30px;
+margin-left:5%
+}
+.totald{
+    display: flex;
+    flex-direction : row;
+}
+
+.totald h3 {
+font-size:30px;
+margin-left:5%
+}
+.btn{
+    background-color: aqua;
+    width:auto;
+    font-size:30px;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    font-family: 'Volkhov', serif;
+    margin-left: 40%;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+}
+
+@Media screen and (max-width:768px){
+    .introtext{
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    .hospital{
+        font-size:100px;
+        color:aqua;
+        margin-left: 5%;
+    }
+    .totalc h3 {
+        font-size:20px;
+        margin-left: 5%;
+    }
+    
+    .totalc{
+        display: flex;
+        flex-direction : row;
+    }
+    .newc{
+        display: flex;
+        flex-direction : row;
+    }
+    
+    .newc h3{
+    font-size:20px;
+    margin-left:5%
+    }
+    .newRecc{
+        display: flex;
+        flex-direction : row;
+    }
+    
+    .newRecc h3{
+    font-size:20px;
+    margin-left:5%
+    }
+    .totalre{
+        display: flex;
+        flex-direction : row;
+    }
+    
+    .totalre h3{
+    font-size:20px;
+    margin-left:5%
+    }
+    .totald{
+        display: flex;
+        flex-direction : row;
+    }
+    
+    .totald h3 {
+    font-size:20px;
+    margin-left:5%
+    }
+    .btn{
+        background-color: aqua;
+        width:auto;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 10px;
+        border:none;
+        font-family: 'Volkhov', serif;
+        margin-left: 30%;
+        box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+}
